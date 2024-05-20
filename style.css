@@ -1,0 +1,66 @@
+.container{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+.card{
+  text-align: center;
+  padding: 30px;
+  border: 1px solid lightgrey;
+  margin: 50px auto;
+  width: 40%;
+  border-radius: 30px;
+  box-shadow: rgba(0, 10, 30, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+h1{
+  color: cadetblue;
+  font-size: xx-large;
+}
+h2{
+  color: cadetblue;
+}
+img{
+  border-radius: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+a{
+  color: darkolivegreen;
+}
+.highlight-on-hover {
+  transition: background-color 0.3s ease;
+}
+.btn-blue {
+  background-color: #6B72E1;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.highlight-on-hover:hover {
+  background-color: yellow;
+}
+.btn-blue:hover {
+  background-color: black;
+  color: white;
+}
+.img-circle {
+  border-radius: 50%;
+}
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
